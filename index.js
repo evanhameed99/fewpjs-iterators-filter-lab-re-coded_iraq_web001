@@ -11,7 +11,7 @@
 
 function fuzzyMatch(arr,string){
   let filtered = arr.filter(elem=>{
-    return string.toLowerCase().startsWith(elem.name.toLowerCase());
+    return string.toLowerCase().startsWith(elem.toLowerCase());
   })
   return filtered
 
