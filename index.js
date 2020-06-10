@@ -4,6 +4,7 @@
 findMatching (arr,string){
 
   const filtered = arr.filter(elem=>{
-    elem.toLowerCase().startsWith(string.toLowerCase());
+    return string.toLowerCase().startsWith(elem.name.toLowerCase())
   })
+  return filtered
 }
