@@ -4,7 +4,7 @@
  function findMatching (arr,string){
 
   let filtered = arr.filter(elem=>{
-    return string.toLowerCase()===elem.name.toLowerCase();
+    return string.toLowerCase()===elem.toLowerCase();
   })
   return filtered
 }
