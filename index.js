@@ -16,3 +16,11 @@ function fuzzyMatch(arr,string){
   return filtered
 
 }
+function matchName(arr,string){
+
+  let filtered = arr.filter(elem=>{
+    return string.toLowerCase() === elem.name.toLowerCase();
+  })
+
+  return filtered;
+}
