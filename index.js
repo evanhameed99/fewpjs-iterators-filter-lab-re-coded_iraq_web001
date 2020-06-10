@@ -14,5 +14,5 @@ function fuzzyMatch(arr,string){
     return string.toLowerCase().startsWith(elem.name.toLowerCase());
   })
   return filtered
-  
+
 }
